@@ -7,10 +7,11 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="resources/styles.css">
+        <script src="resources/script.js"></script>
     </head>
-    <body>
+    <body onload="setGreeting()">
         <div id="container">
-            <h1>Hi :)</h1>
+            <h1 id="greeting">-</h1>
 
             <div id="linkBox">
                 <ul>
@@ -30,6 +31,18 @@
                         <li class="linkBoxItem">
                             <img src="resources/img/knockout.png"/>
                             <span class="linkBoxItemText">Knockout!!</span>
+                        </li>
+                    </a>
+                    <a href="https://www.github.com" target="_top">
+                        <li class="linkBoxItem">
+                            <img src="resources/img/github.png"/>
+                            <span class="linkBoxItemText">GitHub</span>
+                        </li>
+                    </a>
+                    <a href="https://www.steampowered.com" target="_top">
+                        <li class="linkBoxItem">
+                            <img src="resources/img/steam.png"/>
+                            <span class="linkBoxItemText">Steam</span>
                         </li>
                     </a>
                 </ul>
