@@ -1,8 +1,7 @@
-
 body {
     background-color: #333;
-    color:#DDD;
-    font-family: Roboto, Helvetica, Arial,  sans-serif;
+    color: #DDD;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
     padding: 0px;
     margin: 0px;
     background-image: url(noise.png);
@@ -19,8 +18,9 @@ footer {
     font-size: 0.7em;
 }
 
-footer *:link, footer *:visited{
-    color:white;
+footer *:link,
+footer *:visited {
+    color: white;
     text-decoration: none;
 }
 
@@ -49,25 +49,19 @@ footer *:link, footer *:visited{
 
 .linkBoxItem {
     display: inline-block;
-    background-color: #BBB;
+
     padding: 8px;
-    border-radius: 8px;
-    margin: auto 11px;
+
 }
 
-.linkBoxItem:hover, .linkBoxItem:active {
-    animation: linkHover 0.5s ease;
-    background-color: #949494;
-}
-
-@keyframes linkHover {
-    from {background-color: #bbb;}
-    to {background-color: #949494;}
-  }
 
 
-#linkBox ul a:link, #linkBox ul a:visited{
-    color:#333;
+
+
+
+#linkBox ul a:link,
+#linkBox ul a:visited {
+    color: #333;
     text-align: center;
 }
 
@@ -75,8 +69,29 @@ footer *:link, footer *:visited{
     display: block;
     width: 120px;
     height: 120px;
+    background-color: #BBB;
+    border-radius: 8px;
+    margin: auto 11px;
+
+}
+
+@keyframes linkHover {
+    from {
+        background-color: #bbb;
+    }
+
+    to {
+        background-color: #949494;
+    }
+}
+
+.linkBoxItem img:hover,
+.linkBoxItem img:active {
+    animation: linkHover 0.5s ease;
+    background-color: #949494;
 }
 
 .linkBoxItemText {
     margin-top: 0.2em;
+    color: #E3E3E3;
 }
