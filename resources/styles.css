@@ -100,3 +100,12 @@ footer *:visited {
     display: block;
     text-align: center;
 }
+
+/* Light mode */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: rgb(199, 197, 197);
+        background-image: none;
+        color: black;
+    }
+}
