@@ -24,6 +24,11 @@
             "name": "Steam",
             "url": "https://www.steampowered.com",
             "image_name": "steam.png"
+        },
+		{
+            "name": "WhatsApp",
+            "url": "https://web.whatsapp.com",
+            "image_name": "globe.png"
         }
     ]
 }
