@@ -32,7 +32,7 @@ function getSites() {
 }
 
 function fillItems(data) {
-  const linkBox = document.querySelector("#linkBox");
+  const linkBox = document.querySelector("#linkBoxList");
   const template = document.querySelector("#linkBoxItemTemplate");
   data.sites.forEach((site) => {
     const clone = template.content.cloneNode(true);
