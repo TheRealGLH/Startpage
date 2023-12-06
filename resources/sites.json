@@ -1,0 +1,29 @@
+{
+    "sites": [
+        {
+            "name": "Google",
+            "url": "https://www.google.com",
+            "image_name": "google.png"
+        },
+        {
+            "name": "Google Images",
+            "url": "https://images.google.com",
+            "image_name": "google.png"
+        },
+        {
+            "name": "Knockout!!",
+            "url": "https://knockout.chat",
+            "image_name": "knockout.png"
+        },
+        {
+            "name": "Github",
+            "url": "https://www.github.com",
+            "image_name": "github.png"
+        },
+        {
+            "name": "Steam",
+            "url": "https://www.steampowered.com",
+            "image_name": "steam.png"
+        }
+    ]
+}

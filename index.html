@@ -1,53 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>New Tab</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="resources/styles.css">
-        <script src="resources/script.js"></script>
-    </head>
-    <body onload="setGreeting()">
-        <div id="container">
-            <h1 id="greeting">-</h1>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>New Tab</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="resources/styles.css" />
+    <script src="resources/script.js"></script>
+  </head>
+  <body onload="init()">
+    <template id="linkBoxItemTemplate">
+      <a href="https://www.example.com" class="LinkBoxLink" target="_top">
+        <li class="linkBoxItem">
+          <img class="linkBoxItemImage" src="resources/img/google.png" />
+          <span class="linkBoxItemText">Example</span>
+        </li>
+      </a>
+    </template>
+    <div id="container">
+      <h1 id="greeting">-</h1>
 
-            <div id="linkBox">
-                <ul>
-                    <a href="https://www.google.com" target="_top">
-                        <li class="linkBoxItem">
-                            <img src="resources/img/google.png"/>
-                            <span class="linkBoxItemText">Google</span>
-                        </li>
-                    </a>
-                    <a href="https://images.google.com" target="_top">
-                        <li class="linkBoxItem">
-                            <img src="resources/img/google.png"/>
-                            <span class="linkBoxItemText">Google Images</span>
-                        </li>
-                    </a>
-                    <a href="https://www.knockout.chat" target="_top">
-                        <li class="linkBoxItem">
-                            <img src="resources/img/knockout.png"/>
-                            <span class="linkBoxItemText">Knockout!!</span>
-                        </li>
-                    </a>
-                    <a href="https://www.github.com" target="_top">
-                        <li class="linkBoxItem">
-                            <img src="resources/img/github.png"/>
-                            <span class="linkBoxItemText">GitHub</span>
-                        </li>
-                    </a>
-                    <a href="https://www.steampowered.com" target="_top">
-                        <li class="linkBoxItem">
-                            <img src="resources/img/steam.png"/>
-                            <span class="linkBoxItemText">Steam</span>
-                        </li>
-                    </a>
-                </ul>
-            </div>
-        </div>
-        <footer><a href="https://github.com/TheRealGLH/Startpage" target="_blank">Source</a></footer>
-    </body>
+      <div id="linkBox">
+        <!--Templates are automatically added with JS.
+                -->
+      </div>
+    </div>
+    <footer>
+      <a href="https://github.com/TheRealGLH/Startpage" target="_blank"
+        >Source</a
+      >
+    </footer>
+  </body>
 </html>
