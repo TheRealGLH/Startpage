@@ -20,6 +20,11 @@
             "url": "https://www.github.com",
             "image_name": "github.png"
         },
+    	{
+            "name": "Youtube",
+            "url": "https://www.youtube.com",
+            "image_name": "globe.png"
+        },
         {
             "name": "Steam",
             "url": "https://www.steampowered.com",
