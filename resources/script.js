@@ -21,7 +21,7 @@ function setGreeting() {
       break;
   }
   document.getElementById("greeting").innerHTML =
-    greeting + " It's " + time.getHours() + ":" + time.getMinutes() + ".";
+    greeting + " It's " + time.getHours() + ":" +  (time.getMinutes() < 10 ? '0' : '') + time.getMinutes() + ".";
 }
 
 function getSites() {
