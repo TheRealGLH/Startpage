@@ -11,10 +11,13 @@
   </head>
   <body onload="init()">
     <div class="noise"></div>
+    <div class="background"></div>
     <template id="linkBoxItemTemplate">
       <a href="https://www.example.com" class="LinkBoxLink" target="_top">
         <li class="linkBoxItem">
-          <img class="linkBoxItemImage" src="resources/img/google.png" />
+          <div class="linkBoxItemImageContainer" >
+            <img src="resources/img/google.png" class="linkBoxItemImage" />
+          </div>
           <span class="linkBoxItemText">Example</span>
         </li>
       </a>

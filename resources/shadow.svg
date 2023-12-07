@@ -1,0 +1,7 @@
+<svg width="230" height="120" xmlns="http://www.w3.org/2000/svg">
+
+  <filter id="element-id">
+    <feDropShadow dx="3" dy="3" stdDeviation="2"/>
+  </filter>
+
+</svg>
