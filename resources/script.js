@@ -10,7 +10,7 @@ function setGreeting() {
   setTime();
   var greeting = "";
   switch (true) {
-    case (hour < 6) | (hour > 18):
+    case (hour < 6) || (hour > 18):
       greeting = "Good evening.";
       break;
     case hour > 12:
