@@ -30,7 +30,12 @@
             "url": "https://www.steampowered.com",
             "image_name": "steam.png"
         },
-		{
+	{
+            "name": "iCloud",
+            "url": "https://www.icloud.com/",
+            "image_name": "globe.png"
+        },
+	{
             "name": "WhatsApp",
             "url": "https://web.whatsapp.com",
             "image_name": "globe.png"
