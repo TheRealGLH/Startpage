@@ -20,10 +20,10 @@
             "url": "https://www.github.com",
             "image_name": "github.png"
         },
-    	{
+        {
             "name": "Youtube",
             "url": "https://www.youtube.com",
-            "image_name": "globe.png"
+            "image_name": "youtube.png"
         },
         {
             "name": "Steam",
@@ -33,12 +33,12 @@
 	{
             "name": "iCloud",
             "url": "https://www.icloud.com/",
-            "image_name": "globe.png"
+            "image_name": "icloud.png"
         },
 	{
             "name": "WhatsApp",
             "url": "https://web.whatsapp.com",
-            "image_name": "globe.png"
+            "image_name": "whatsapp.png"
         }
     ]
 }
