@@ -11,6 +11,11 @@
             "image_name": "google.png"
         },
         {
+            "name": "Google Translate",
+            "url": "https://translate.google.com",
+            "image_name": "google.png"
+        },
+        {
             "name": "Knockout!!",
             "url": "https://knockout.chat",
             "image_name": "knockout.png"
@@ -30,12 +35,12 @@
             "url": "https://www.steampowered.com",
             "image_name": "steam.png"
         },
-	{
+        {
             "name": "iCloud",
             "url": "https://www.icloud.com/",
             "image_name": "icloud.png"
         },
-	{
+        {
             "name": "WhatsApp",
             "url": "https://web.whatsapp.com",
             "image_name": "whatsapp.png"
