@@ -45,5 +45,11 @@
             "url": "https://web.whatsapp.com",
             "image_name": "whatsapp.png"
         }
+        ,
+        {
+            "name": "Webster",
+            "url": "https://www.merriam-webster.com/",
+            "image_name": "globe.png"
+        }
     ]
 }
