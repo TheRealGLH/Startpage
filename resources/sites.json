@@ -50,6 +50,11 @@
             "name": "Webster",
             "url": "https://www.merriam-webster.com/",
             "image_name": "globe.png"
+        },
+        {
+            "name": "Webster",
+            "url": "https://www.learncpp.com",
+            "image_name": "globe.png"
         }
     ]
 }
