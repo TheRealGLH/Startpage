@@ -49,12 +49,12 @@
         {
             "name": "Webster",
             "url": "https://www.merriam-webster.com/",
-            "image_name": "globe.png"
+            "image_name": "webster.png"
         },
         {
-            "name": "Webster",
+            "name": "Learn C++",
             "url": "https://www.learncpp.com",
-            "image_name": "globe.png"
+            "image_name": "cpp.png"
         }
     ]
 }
